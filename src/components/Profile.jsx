@@ -45,7 +45,7 @@ const Profile = (props) => {
   } // function to handle theme change
 
   const handleUpdate = async () => {
-    if (currentUser && currentUser.uid === userData.uid) {
+    if (currentUser && currentUser.uid === userData.token) {
       const docRef = doc(db, 'users', username);
       await updateDoc(docRef, newData);
       setModalIsOpen(false); // close the modal after updating
