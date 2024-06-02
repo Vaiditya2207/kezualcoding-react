@@ -41,7 +41,7 @@ function SideComponent(props) {
                 <button className={`${Styles.navbarButtonsDark}`} style={{ opacity: isHovered ? 0 : 1, visibility: isHovered ? 'hidden' : 'visible' }}>STUDY</button>
                 <button className={Styles.navbarButtonsDark} style={{ opacity: isHovered ? 0 : 1, visibility: isHovered ? 'hidden' : 'visible' }}>GAMES</button>
                 <button className={Styles.navbarButtonsDark} style={{ opacity: isHovered ? 0 : 1, visibility: isHovered ? 'hidden' : 'visible' }}>PLAYGROUND</button>
-                <img 
+                <img
                     src={chooseImage()} 
                     alt="profile" 
                     className={Styles.profile} 
